@@ -49,11 +49,12 @@
         }
         
         .logo-container img {
-            width: 50px; /* Logo size */
-            height: auto;
+            height: 50px; /* Set the same height for all logos */
+            width: auto; /* Let width adjust proportionally */
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
             padding: 5px;
             background: white;
+            border-radius: 8px;
         }
         
         /* Message Box */
@@ -82,7 +83,7 @@
         /* Mobile Styles */
         @media (max-width: 768px) {
             .logo-container img {
-                width: 40px; /* Smaller logos for small screens */
+                height: 40px; /* Reduce logo size for small screens */
             }
             .footer-banner {
                 font-size: 3vw;
@@ -96,8 +97,8 @@
 
     <!-- Logos at the Top -->
     <div class="logo-container">
-        <img src="https://github.com/amolcrypt/error-message/blob/main/Coinbase-logo-square-1.svg" alt="Coinbase Logo">
-        <img src="https://github.com/amolcrypt/error-message/blob/main/LUSD%20Logo.svg" alt="LUSD Coin Logo">
+        <img src="https://raw.githubusercontent.com/amolcrypt/error-message/main/Coinbase-logo-square-1.svg" alt="Coinbase Logo">
+        <img src="https://raw.githubusercontent.com/amolcrypt/error-message/main/LUSD%20Logo.svg" alt="LUSD Coin Logo">
     </div>
 
     <!-- Message Box -->
